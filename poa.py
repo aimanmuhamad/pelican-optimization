@@ -1,5 +1,4 @@
 import numpy as np
-from variables import *
 
 class PelicanOptimization():
     def __init__(self, w, n_variables, n_pelicans, n_fishes, pelican_position,
