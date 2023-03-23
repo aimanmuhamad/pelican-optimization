@@ -1,7 +1,7 @@
-from variables import *
-import numpy as np
 from poa import PelicanOptimization
 from init_position import initialize
+import numpy as np
+from variables import *
 
 pelican_positions, pelican_velocities, fish_positions = initialize(n_variables, n_pelicans, n_fishes)
 poa = PelicanOptimization(w, n_variables, n_pelicans, n_fishes, pelican_positions, 
